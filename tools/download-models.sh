@@ -192,66 +192,66 @@ function download_alexnet()
 {
 	echo "$LOG Downloading AlexNet..."
 
-	download_file "bvlc_alexnet.caffemodel" "https://nvidia.box.com/shared/static/5j264j7mky11q8emy4q14w3r8hl5v6zh.caffemodel"
-	download_file "alexnet.prototxt" "https://nvidia.box.com/shared/static/c84wp3axbtv4e2gybn40jprdquav9azm.prototxt"
-	download_file "alexnet_noprob.prototxt" "https://nvidia.box.com/shared/static/o0w0sl3obqxj21u09c0cwzw4khymz7hh.prototxt"
+	download_file "bvlc_alexnet.caffemodel" "https://bbs.gpuworld.cn/mirror/5j264j7mky11q8emy4q14w3r8hl5v6zh.caffemodel"
+	download_file "alexnet.prototxt" "https://bbs.gpuworld.cn/mirror/c84wp3axbtv4e2gybn40jprdquav9azm.prototxt"
+	download_file "alexnet_noprob.prototxt" "https://bbs.gpuworld.cn/mirror/o0w0sl3obqxj21u09c0cwzw4khymz7hh.prototxt"
 }
 
 function download_googlenet()
 {
 	echo "$LOG Downloading GoogleNet..."
 
-	download_file "bvlc_googlenet.caffemodel" "https://nvidia.box.com/shared/static/at8b1105ww1c5h7p30j5ko8qfnxrs0eg.caffemodel" 
-	download_file "googlenet.prototxt" "https://nvidia.box.com/shared/static/5z3l76p8ap4n0o6rk7lyasdog9f14gc7.prototxt"
-	download_file "googlenet_noprob.prototxt" "https://nvidia.box.com/shared/static/ue8qrqtglu36andbvobvaaj8egxjaoli.prototxt"
+	download_file "bvlc_googlenet.caffemodel" "https://bbs.gpuworld.cn/mirror/at8b1105ww1c5h7p30j5ko8qfnxrs0eg.caffemodel" 
+	download_file "googlenet.prototxt" "https://bbs.gpuworld.cn/mirror/5z3l76p8ap4n0o6rk7lyasdog9f14gc7.prototxt"
+	download_file "googlenet_noprob.prototxt" "https://bbs.gpuworld.cn/mirror/ue8qrqtglu36andbvobvaaj8egxjaoli.prototxt"
 }
 
 function download_googlenet12()
 {
 	echo "$LOG Downloading GoogleNet-12..."
-	download_archive "GoogleNet-ILSVRC12-subset.tar.gz" "https://nvidia.box.com/shared/static/zb8i3zcg39sdjjxfty7o5935hpbd64y4.gz" 
+	download_archive "GoogleNet-ILSVRC12-subset.tar.gz" "https://bbs.gpuworld.cn/mirror/zb8i3zcg39sdjjxfty7o5935hpbd64y4.gz" 
 }
 
 function download_resnet18()
 {
 	echo "$LOG Downloading ResNet-18..."
-	download_archive "ResNet-18.tar.gz" "https://nvidia.box.com/shared/static/gph1qfor89vh498op8cicvwc13zltu3h.gz" 
+	download_archive "ResNet-18.tar.gz" "https://bbs.gpuworld.cn/mirror/gph1qfor89vh498op8cicvwc13zltu3h.gz" 
 }
 
 function download_resnet50()
 {
 	echo "$LOG Downloading ResNet-50..."
-	download_archive "ResNet-50.tar.gz" "https://nvidia.box.com/shared/static/ht46fmnwvow0o0n0ke92x6bzkht8g5xb.gz" 
+	download_archive "ResNet-50.tar.gz" "https://bbs.gpuworld.cn/mirror/ht46fmnwvow0o0n0ke92x6bzkht8g5xb.gz" 
 }
 
 function download_resnet101()
 {
 	echo "$LOG Downloading ResNet-101..."
-	download_archive "ResNet-101.tar.gz" "https://nvidia.box.com/shared/static/7zog25pu70nxjh2irni49e5ujlg4dl82.gz" 
+	download_archive "ResNet-101.tar.gz" "https://bbs.gpuworld.cn/mirror/7zog25pu70nxjh2irni49e5ujlg4dl82.gz" 
 }
 
 function download_resnet152()
 {
 	echo "$LOG Downloading ResNet-152..."
-	download_archive "ResNet-152.tar.gz" "https://nvidia.box.com/shared/static/6t621ru1i054vscvhx3rqck8597es7w8.gz" 
+	download_archive "ResNet-152.tar.gz" "https://bbs.gpuworld.cn/mirror/6t621ru1i054vscvhx3rqck8597es7w8.gz" 
 }
 
 function download_vgg16()
 {
 	echo "$LOG Downloading VGG-16..."
-	download_archive "VGG-16.tar.gz" "https://nvidia.box.com/shared/static/ar2ttdpnw1drzxnvpw0umzkw67fka3h0.gz" 
+	download_archive "VGG-16.tar.gz" "https://bbs.gpuworld.cn/mirror/ar2ttdpnw1drzxnvpw0umzkw67fka3h0.gz" 
 }
 
 function download_vgg19()
 {
 	echo "$LOG Downloading VGG-19..."
-	download_archive "VGG-19.tar.gz" "https://nvidia.box.com/shared/static/1ubk73f1akhh4h7mo0iq7erars7j5yyu.gz" 
+	download_archive "VGG-19.tar.gz" "https://bbs.gpuworld.cn/mirror/1ubk73f1akhh4h7mo0iq7erars7j5yyu.gz" 
 }
 
 function download_inception_v4()
 {
 	echo "$LOG Downloading Inception-v4..."
-	download_archive "Inception-v4.tar.gz" "https://nvidia.box.com/shared/static/maidbjiwkg6bz2bk7drwq7rj8v4whdl9.gz" 
+	download_archive "Inception-v4.tar.gz" "https://bbs.gpuworld.cn/mirror/maidbjiwkg6bz2bk7drwq7rj8v4whdl9.gz" 
 }
 
 function download_recognition()
@@ -283,61 +283,61 @@ function download_recognition()
 function download_pednet()
 {
 	echo "$LOG Downloading PedNet..."
-	download_archive "ped-100.tar.gz" "https://nvidia.box.com/shared/static/0wbxo6lmxfamm1dk90l8uewmmbpbcffb.gz" 
+	download_archive "ped-100.tar.gz" "https://bbs.gpuworld.cn/mirror/0wbxo6lmxfamm1dk90l8uewmmbpbcffb.gz" 
 }
 
 function download_multiped()
 {
 	echo "$LOG Downloading MultiPed..."
-	download_archive "multiped-500.tar.gz" "https://nvidia.box.com/shared/static/r3bq08qh7zb0ap2lf4ysjujdx64j8ofw.gz" 
+	download_archive "multiped-500.tar.gz" "https://bbs.gpuworld.cn/mirror/r3bq08qh7zb0ap2lf4ysjujdx64j8ofw.gz" 
 }
 
 function download_facenet()
 {
 	echo "$LOG Downloading FaceNet..."
-	download_archive "facenet-120.tar.gz" "https://nvidia.box.com/shared/static/wjitc00ef8j6shjilffibm6r2xxcpigz.gz" 
+	download_archive "facenet-120.tar.gz" "https://bbs.gpuworld.cn/mirror/wjitc00ef8j6shjilffibm6r2xxcpigz.gz" 
 }
 
 function download_detectnet_coco_dog()
 {
 	echo "$LOG Downloading DetectNet-COCO-Dog..."
-	download_archive "DetectNet-COCO-Dog.tar.gz" "https://nvidia.box.com/shared/static/3qdg3z5qvl8iwjlds6bw7bwi2laloytu.gz" 
+	download_archive "DetectNet-COCO-Dog.tar.gz" "https://bbs.gpuworld.cn/mirror/3qdg3z5qvl8iwjlds6bw7bwi2laloytu.gz" 
 }
 
 function download_detectnet_coco_chair()
 {
 	echo "$LOG Downloading DetectNet-COCO-Chair..."
-	download_archive "DetectNet-COCO-Chair.tar.gz" "https://nvidia.box.com/shared/static/fq0m0en5mmssiizhs9nxw3xtwgnoltf2.gz" 
+	download_archive "DetectNet-COCO-Chair.tar.gz" "https://bbs.gpuworld.cn/mirror/fq0m0en5mmssiizhs9nxw3xtwgnoltf2.gz" 
 }
 
 function download_detectnet_coco_bottle()
 {
 	echo "$LOG Downloading DetectNet-COCO-Bottle..."
-	download_archive "DetectNet-COCO-Bottle.tar.gz" "https://nvidia.box.com/shared/static/8bhm91o9yldpf97dcz5d0welgmjy7ucw.gz" 
+	download_archive "DetectNet-COCO-Bottle.tar.gz" "https://bbs.gpuworld.cn/mirror/8bhm91o9yldpf97dcz5d0welgmjy7ucw.gz" 
 }
 
 function download_detectnet_coco_airplane()
 {
 	echo "$LOG Downloading DetectNet-COCO-Airplane..."
-	download_archive "DetectNet-COCO-Airplane.tar.gz" "https://nvidia.box.com/shared/static/xi71hlsht5b0y66loeg73rxfa73q561s.gz" 
+	download_archive "DetectNet-COCO-Airplane.tar.gz" "https://bbs.gpuworld.cn/mirror/xi71hlsht5b0y66loeg73rxfa73q561s.gz" 
 }
 
 function download_ssd_mobilenet_v1()
 {
 	echo "$LOG Downloading SSD-Mobilenet-v1..."
-	download_archive "SSD-Mobilenet-v1.tar.gz" "https://nvidia.box.com/shared/static/0pg3xi9opwio65df14rdgrtw40ivbk1o.gz" 
+	download_archive "SSD-Mobilenet-v1.tar.gz" "https://bbs.gpuworld.cn/mirror/0pg3xi9opwio65df14rdgrtw40ivbk1o.gz" 
 }
 
 function download_ssd_mobilenet_v2()
 {
 	echo "$LOG Downloading SSD-Mobilenet-v2..."
-	download_archive "SSD-Mobilenet-v2.tar.gz" "https://nvidia.box.com/shared/static/jcdewxep8vamzm71zajcovza938lygre.gz" 
+	download_archive "SSD-Mobilenet-v2.tar.gz" "https://bbs.gpuworld.cn/mirror/jcdewxep8vamzm71zajcovza938lygre.gz" 
 }
 
 function download_ssd_inception_v2()
 {
 	echo "$LOG Downloading SSD-Inception-v2..."
-	download_archive "SSD-Inception-v2.tar.gz" "https://nvidia.box.com/shared/static/mjq1cel6r5mdk94yb9o6v4nj8gxzlflr.gz" 
+	download_archive "SSD-Inception-v2.tar.gz" "https://bbs.gpuworld.cn/mirror/mjq1cel6r5mdk94yb9o6v4nj8gxzlflr.gz" 
 }
 
 function download_detection()
@@ -367,67 +367,67 @@ function download_detection()
 function download_fcn_resnet18_cityscapes_512x256()
 {
 	echo "$LOG Downloading FCN-ResNet18-Cityscapes-512x256..."
-	download_archive "FCN-ResNet18-Cityscapes-512x256.tar.gz" "https://nvidia.box.com/shared/static/k7s7gdgi098309fndm2xbssj553vf71s.gz" 
+	download_archive "FCN-ResNet18-Cityscapes-512x256.tar.gz" "https://bbs.gpuworld.cn/mirror/k7s7gdgi098309fndm2xbssj553vf71s.gz" 
 }
 
 function download_fcn_resnet18_cityscapes_1024x512()
 {
 	echo "$LOG Downloading FCN-ResNet18-Cityscapes-1024x512..."
-	download_archive "FCN-ResNet18-Cityscapes-1024x512.tar.gz" "https://nvidia.box.com/shared/static/9aqg4gpjmk7ipz4z0raa5mvs35om6emy.gz" 
+	download_archive "FCN-ResNet18-Cityscapes-1024x512.tar.gz" "https://bbs.gpuworld.cn/mirror/9aqg4gpjmk7ipz4z0raa5mvs35om6emy.gz" 
 }
 
 function download_fcn_resnet18_cityscapes_2048x1024()
 {
 	echo "$LOG Downloading FCN-ResNet18-Cityscapes-2048x1024..."
-	download_archive "FCN-ResNet18-Cityscapes-2048x1024.tar.gz" "https://nvidia.box.com/shared/static/ylh3d2qk8qvitalq8sy803o7avrb6w0h.gz" 
+	download_archive "FCN-ResNet18-Cityscapes-2048x1024.tar.gz" "https://bbs.gpuworld.cn/mirror/ylh3d2qk8qvitalq8sy803o7avrb6w0h.gz" 
 }
 
 function download_fcn_resnet18_deepscene_576x320()
 {
 	echo "$LOG Downloading FCN-ResNet18-DeepScene-576x320..."
-	download_archive "FCN-ResNet18-DeepScene-576x320.tar.gz" "https://nvidia.box.com/shared/static/jm0zlezvweiimpzluohg6453s0u0nvcv.gz" 
+	download_archive "FCN-ResNet18-DeepScene-576x320.tar.gz" "https://bbs.gpuworld.cn/mirror/jm0zlezvweiimpzluohg6453s0u0nvcv.gz" 
 }
 
 function download_fcn_resnet18_deepscene_864x480()
 {
 	echo "$LOG Downloading FCN-ResNet18-DeepScene-864x480..."
-	download_archive "FCN-ResNet18-DeepScene-864x480.tar.gz" "https://nvidia.box.com/shared/static/gooux9b5nknk8wlk60ou9s2unpo760iq.gz" 
+	download_archive "FCN-ResNet18-DeepScene-864x480.tar.gz" "https://bbs.gpuworld.cn/mirror/gooux9b5nknk8wlk60ou9s2unpo760iq.gz" 
 }
 
 function download_fcn_resnet18_mhp_512x320()
 {
 	echo "$LOG Downloading FCN-ResNet18-MHP-512x320..."
-	download_archive "FCN-ResNet18-MHP-512x320.tar.gz" "https://nvidia.box.com/shared/static/dgaw0ave3bdws1t5ed333ftx5dbpt9zv.gz" 
+	download_archive "FCN-ResNet18-MHP-512x320.tar.gz" "https://bbs.gpuworld.cn/mirror/dgaw0ave3bdws1t5ed333ftx5dbpt9zv.gz" 
 }
 
 function download_fcn_resnet18_mhp_640x360()
 {
 	echo "$LOG Downloading FCN-ResNet18-MHP-640x360..."
-	download_archive "FCN-ResNet18-MHP-640x360.tar.gz" "https://nvidia.box.com/shared/static/50mvlrjwbq9ugkmnnqp1sm99g2j21sfn.gz" 
+	download_archive "FCN-ResNet18-MHP-640x360.tar.gz" "https://bbs.gpuworld.cn/mirror/50mvlrjwbq9ugkmnnqp1sm99g2j21sfn.gz" 
 }
 
 function download_fcn_resnet18_pascal_voc_320x320()
 {
 	echo "$LOG Downloading FCN-ResNet18-Pascal-VOC-320x320..."
-	download_archive "FCN-ResNet18-Pascal-VOC-320x320.tar.gz" "https://nvidia.box.com/shared/static/p63pgrr6tm33tn23913gq6qvaiarydaj.gz" 
+	download_archive "FCN-ResNet18-Pascal-VOC-320x320.tar.gz" "https://bbs.gpuworld.cn/mirror/p63pgrr6tm33tn23913gq6qvaiarydaj.gz" 
 }
 
 function download_fcn_resnet18_pascal_voc_512x320()
 {
 	echo "$LOG Downloading FCN-ResNet18-Pascal-VOC-512x320..."
-	download_archive "FCN-ResNet18-Pascal-VOC-512x320.tar.gz" "https://nvidia.box.com/shared/static/njup7f3vu4mgju89kfre98olwljws5pk.gz" 
+	download_archive "FCN-ResNet18-Pascal-VOC-512x320.tar.gz" "https://bbs.gpuworld.cn/mirror/njup7f3vu4mgju89kfre98olwljws5pk.gz" 
 }
 
 function download_fcn_resnet18_sun_rgbd_512x400()
 {
 	echo "$LOG Downloading FCN-ResNet18-SUN-RGBD-512x400..."
-	download_archive "FCN-ResNet18-SUN-RGBD-512x400.tar.gz" "https://nvidia.box.com/shared/static/5vs9t2wah5axav11k8o3l9skb7yy3xgd.gz" 
+	download_archive "FCN-ResNet18-SUN-RGBD-512x400.tar.gz" "https://bbs.gpuworld.cn/mirror/5vs9t2wah5axav11k8o3l9skb7yy3xgd.gz" 
 }
 
 function download_fcn_resnet18_sun_rgbd_640x512()
 {
 	echo "$LOG Downloading FCN-ResNet18-SUN-RGBD-640x512..."
-	download_archive "FCN-ResNet18-SUN-RGBD-640x512.tar.gz" "https://nvidia.box.com/shared/static/z5llxysbcqd8zzzsm7vjqeihs7ihdw20.gz" 
+	download_archive "FCN-ResNet18-SUN-RGBD-640x512.tar.gz" "https://bbs.gpuworld.cn/mirror/z5llxysbcqd8zzzsm7vjqeihs7ihdw20.gz" 
 }
 
 function download_segmentation()
@@ -456,43 +456,43 @@ function download_segmentation()
 function download_fcn_alexnet_cityscapes_sd()
 {
 	echo "$LOG Downloading FCN-Alexnet-Cityscapes-SD..."
-	download_archive "FCN-Alexnet-Cityscapes-SD.tar.gz" "https://nvidia.box.com/shared/static/pa5d338t9ntca5chfbymnur53aykhall.gz" 
+	download_archive "FCN-Alexnet-Cityscapes-SD.tar.gz" "https://bbs.gpuworld.cn/mirror/pa5d338t9ntca5chfbymnur53aykhall.gz" 
 }
 
 function download_fcn_alexnet_cityscapes_hd()
 {
 	echo "$LOG Downloading FCN-Alexnet-Cityscapes-HD..."
-	download_archive "FCN-Alexnet-Cityscapes-HD.tar.gz" "https://nvidia.box.com/shared/static/mh121fvmveemujut7d8c9cbmglq18vz3.gz" 
+	download_archive "FCN-Alexnet-Cityscapes-HD.tar.gz" "https://bbs.gpuworld.cn/mirror/mh121fvmveemujut7d8c9cbmglq18vz3.gz" 
 }
 
 function download_fcn_alexnet_aerial_fpv()
 {
 	echo "$LOG Downloading FCN-Alexnet-Aerial-FPV..."
-	download_archive "FCN-Alexnet-Aerial-FPV-720p.tar.gz" "https://nvidia.box.com/shared/static/y1mzlwkmytzwg2m7akt7tcbsd33f9opz.gz" 
+	download_archive "FCN-Alexnet-Aerial-FPV-720p.tar.gz" "https://bbs.gpuworld.cn/mirror/y1mzlwkmytzwg2m7akt7tcbsd33f9opz.gz" 
 }
 
 function download_fcn_alexnet_pascal_voc()
 {
 	echo "$LOG Downloading FCN-Alexnet-Pascal-VOC..."
-	download_archive "FCN-Alexnet-Pascal-VOC.tar.gz" "https://nvidia.box.com/shared/static/xj20b6qopfwkkpqm12ffiuaekk6bs8op.gz" 
+	download_archive "FCN-Alexnet-Pascal-VOC.tar.gz" "https://bbs.gpuworld.cn/mirror/xj20b6qopfwkkpqm12ffiuaekk6bs8op.gz" 
 }
 
 function download_fcn_alexnet_synthia_cvpr()
 {
 	echo "$LOG Downloading FCN-Alexnet-Synthia-CVPR..."
-	download_archive "FCN-Alexnet-SYNTHIA-CVPR16.tar.gz" "https://nvidia.box.com/shared/static/u5ey2ws0nbtzyqyftkuqazx1honw6wry.gz" 
+	download_archive "FCN-Alexnet-SYNTHIA-CVPR16.tar.gz" "https://bbs.gpuworld.cn/mirror/u5ey2ws0nbtzyqyftkuqazx1honw6wry.gz" 
 }
 
 function download_fcn_alexnet_synthia_summer_sd()
 {
 	echo "$LOG Downloading FCN-Alexnet-Synthia-Summer-SD..."
-	download_archive "FCN-Alexnet-SYNTHIA-Summer-SD.tar.gz" "https://nvidia.box.com/shared/static/vbk5ofu1x2hwp9luanbg4o0vrfub3a7j.gz" 
+	download_archive "FCN-Alexnet-SYNTHIA-Summer-SD.tar.gz" "https://bbs.gpuworld.cn/mirror/vbk5ofu1x2hwp9luanbg4o0vrfub3a7j.gz" 
 }
 
 function download_fcn_alexnet_synthia_summer_hd()
 {
 	echo "$LOG Downloading FCN-Alexnet-Synthia-Summer-HD..."
-	download_archive "FCN-Alexnet-SYNTHIA-Summer-HD.tar.gz" "https://nvidia.box.com/shared/static/ydgmqgdhbvul6q9avoc9flxr3fdoa8pw.gz" 
+	download_archive "FCN-Alexnet-SYNTHIA-Summer-HD.tar.gz" "https://bbs.gpuworld.cn/mirror/ydgmqgdhbvul6q9avoc9flxr3fdoa8pw.gz" 
 }
 
 function download_segmentation_legacy()
@@ -517,13 +517,13 @@ function download_segmentation_legacy()
 function download_deep_homography_coco()
 {
 	echo "$LOG Downloading Deep-Homography-COCO..."
-	download_archive "Deep-Homography-COCO.tar.gz" "https://nvidia.box.com/shared/static/nlqbsdnt76y0nmkwdzxkg4zbvhk4bidh.gz" 
+	download_archive "Deep-Homography-COCO.tar.gz" "https://bbs.gpuworld.cn/mirror/nlqbsdnt76y0nmkwdzxkg4zbvhk4bidh.gz" 
 }
 
 function download_super_resolution_bsd500()
 {
 	echo "$LOG Downloading Super-Resolution-BSD500..."
-	download_archive "Super-Resolution-BSD500.tar.gz" "https://nvidia.box.com/shared/static/a99l8ttk21p3tubjbyhfn4gh37o45rn8.gz" 
+	download_archive "Super-Resolution-BSD500.tar.gz" "https://bbs.gpuworld.cn/mirror/a99l8ttk21p3tubjbyhfn4gh37o45rn8.gz" 
 }
 
 function download_image_processing()

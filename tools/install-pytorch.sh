@@ -300,7 +300,7 @@ function install_pytorch_v110_python27_jp42()
 	install_deb_package "zlib1g-dev" FOUND_ZLIB
 
 	# install pytorch wheel
-	download_wheel pip "torch-1.1.0-cp27-cp27mu-linux_aarch64.whl" "https://nvidia.box.com/shared/static/o8teczquxgul2vjukwd4p77c6869xmri.whl"
+	download_wheel pip "torch-1.1.0-cp27-cp27mu-linux_aarch64.whl" "https://bbs.gpuworld.cn/mirror/o8teczquxgul2vjukwd4p77c6869xmri.whl"
 
 	local wheel_status=$?
 
@@ -337,7 +337,7 @@ function install_pytorch_v110_python36_jp42()
 	install_deb_package "zlib1g-dev" FOUND_ZLIB
 
 	# install pytorch wheel
-	download_wheel pip3 "torch-1.1.0-cp36-cp36m-linux_aarch64.whl" "https://nvidia.box.com/shared/static/j2dn48btaxosqp0zremqqm8pjelriyvs.whl"
+	download_wheel pip3 "torch-1.1.0-cp36-cp36m-linux_aarch64.whl" "https://bbs.gpuworld.cn/mirror/j2dn48btaxosqp0zremqqm8pjelriyvs.whl"
 
 	local wheel_status=$?
 
@@ -379,7 +379,7 @@ function install_pytorch_v140_python27_jp42()
 	pip install future
 
 	# install pytorch wheel
-	download_wheel pip "torch-1.4.0-cp27-cp27mu-linux_aarch64.whl" "https://nvidia.box.com/shared/static/1v2cc4ro6zvsbu0p8h6qcuaqco1qcsif.whl"
+	download_wheel pip "torch-1.4.0-cp27-cp27mu-linux_aarch64.whl" "https://bbs.gpuworld.cn/mirror/1v2cc4ro6zvsbu0p8h6qcuaqco1qcsif.whl"
 
 	local wheel_status=$?
 
@@ -422,7 +422,7 @@ function install_pytorch_v140_python36_jp42()
 	pip3 install numpy --verbose
 
 	# install pytorch wheel
-	download_wheel pip3 "torch-1.4.0-cp36-cp36m-linux_aarch64.whl" "https://nvidia.box.com/shared/static/ncgzus5o23uck9i5oth2n8n06k340l6k.whl"
+	download_wheel pip3 "torch-1.4.0-cp36-cp36m-linux_aarch64.whl" "https://bbs.gpuworld.cn/mirror/ncgzus5o23uck9i5oth2n8n06k340l6k.whl"
 
 	local wheel_status=$?
 
@@ -461,7 +461,7 @@ function install_pytorch_v140_python27_jp44()
 	pip install future
 
 	# install pytorch wheel
-	download_wheel pip "torch-1.4.0-cp27-cp27mu-linux_aarch64.whl" "https://nvidia.box.com/shared/static/yhlmaie35hu8jv2xzvtxsh0rrpcu97yj.whl"
+	download_wheel pip "torch-1.4.0-cp27-cp27mu-linux_aarch64.whl" "https://bbs.gpuworld.cn/mirror/yhlmaie35hu8jv2xzvtxsh0rrpcu97yj.whl"
 
 	local wheel_status=$?
 
@@ -504,7 +504,7 @@ function install_pytorch_v140_python36_jp44()
 	pip3 install numpy --verbose
 
 	# install pytorch wheel
-	download_wheel pip3 "torch-1.4.0-cp36-cp36m-linux_aarch64.whl" "https://nvidia.box.com/shared/static/c3d7vm4gcs9m728j6o5vjay2jdedqb55.whl"
+	download_wheel pip3 "torch-1.4.0-cp36-cp36m-linux_aarch64.whl" "https://bbs.gpuworld.cn/mirror/c3d7vm4gcs9m728j6o5vjay2jdedqb55.whl"
 
 	local wheel_status=$?
 
@@ -544,7 +544,7 @@ function install_pytorch_v160_python36_jp44()
 	pip3 install numpy --verbose
 
 	# install pytorch wheel
-	download_wheel pip3 "torch-1.6.0-cp36-cp36m-linux_aarch64.whl" "https://nvidia.box.com/shared/static/9eptse6jyly1ggt9axbja2yrmj6pbarc.whl"
+	download_wheel pip3 "torch-1.6.0-cp36-cp36m-linux_aarch64.whl" "https://bbs.gpuworld.cn/mirror/9eptse6jyly1ggt9axbja2yrmj6pbarc.whl"
 
 	local wheel_status=$?
 

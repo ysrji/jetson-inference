@@ -74,7 +74,7 @@ SSD_BASE_MODEL="$DETECTION_DIR/models/mobilenet-v1-ssd-mp-0_675.pth"
 
 if [ ! -f "$SSD_BASE_MODEL" ]; then
 	echo "Downloading pytorch-ssd base model..."
-	wget --quiet --show-progress --progress=bar:force:noscroll --no-check-certificate https://nvidia.box.com/shared/static/djf5w54rjvpqocsiztzaandq1m3avr7c.pth -O $SSD_BASE_MODEL
+	wget --quiet --show-progress --progress=bar:force:noscroll --no-check-certificate https://bbs.gpuworld.cn/mirror/djf5w54rjvpqocsiztzaandq1m3avr7c.pth -O $SSD_BASE_MODEL
 fi
 
 # generate mount commands
